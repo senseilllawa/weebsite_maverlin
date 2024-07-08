@@ -110,6 +110,31 @@
   justify-content: space-between;
   display: flex;
 }
+/* Обновленный стиль для кнопки языка */
+.language-switch {
+  border: 1px solid #000; /* Черная рамка толщиной 1px */
+  padding: 5px 10px; /* Отступы внутри кнопки */
+  border-radius: 8px; /* Закругленные углы */
+  text-decoration: none; /* Убираем подчеркивание */
+  color: #000; /* Цвет текста */
+  display: flex; /* Используем flexbox для центрирования текста внутри кнопки */
+  align-items: center; /* Вертикальное выравнивание текста внутри кнопки */
+  justify-content: center; /* Горизонтальное выравнивание текста внутри кнопки */
+}
+
+/* Выравнивание контейнера навигации по вертикали */
+.w-locales-list {
+  display: flex; /* Используем flexbox для выравнивания элементов внутри контейнера */
+  align-items: center; /* Вертикальное выравнивание элементов внутри контейнера */
+  margin-left: 15px; /* Отступ слева для отделения от других элементов */
+}
+
+.language-switch:hover {
+  background-color: #f0f0f0; /* Цвет фона при наведении */
+  border-color: #333; /* Цвет рамки при наведении */
+}
+
+
 
 .fn-contain-logo {
   color: #df0;
